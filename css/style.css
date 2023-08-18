@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    gap: 1vh;
+    font-family: 'Handjet', cursive;
+    color: white;
+}
+
+
+body{
+    margin: 0 auto;
+    background-color: #2A2A2E;
+    width: 80%;
+}
+
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    height: 7vh;
+    background-color: #5241BF;
+
+    font-family: 'Handjet', cursive;
+    color: white;
+}
+.cabecalho-conj-logo{
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 4vh;
+}
+
+.cabecalho-logo{
+    width: 5vh; 
+    margin-right: 10px;
+}
+
+
+.cabecalho-menu{
+    display: flex;
+    gap: 5vh;
+    margin-right: 10vh;
+}
+
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+.principal-titulo{
+    padding-top: 3vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.principal-txt{
+    padding: 4vh;
+    text-align: justify;
+}
